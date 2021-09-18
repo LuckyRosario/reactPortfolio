@@ -1,0 +1,135 @@
+section {
+    height: auto;
+     background-color: white;
+ }
+ .section {
+     background-color: lightsteelblue;
+ }
+ 
+ 
+ 
+ footer {
+  
+   bottom: 0;
+   width: 100%;
+   /* Set the fixed height of the footer here */
+   height: 400px;
+   background-color: palegoldenrod;
+   color: slategray;
+   margin-top: 60px;
+ }
+ .headshot {
+     width: auto; 
+     height: 350px; 
+     margin-left: 50px
+ }
+ .about {
+     font-size: 17px;
+ }
+ @media only screen and (max-width: 600px) {
+     .headshot {
+         width: auto;
+         height: 200px;
+        margin-left: 0;
+     }
+     form {
+         width: 100%;
+     }
+     .about {
+         font-size: 14px;
+         margin-right:  75px;
+         justify-content: stretch;
+     }
+ }
+ 
+ nav {
+   background-color: lightsteelblue;
+   max-width: 100%;
+   
+ }
+ ul {
+     list-style-type: none;
+     font-size: 30px;
+     justify-content: space-between;   
+ }
+ li {
+     text-decoration: none;
+ }
+ h1 {
+     font-size: 70px;
+     margin: 0;
+ }
+ p {
+     margin: 0;
+  
+     
+ }
+  a{
+      color: slategray
+  }
+ 
+ .hero-area {
+     display: flex;
+     align-items: center;
+     justify-content:space-between;   
+     color: slategrey;
+   
+     height: 500px;
+ }
+ .socials {
+     margin-top: 100px;
+     margin-right: 5px;
+     margin-bottom: 100px;
+     text-align: right;
+     font-size: xx-large;
+    color:lightslategrey;  
+ }
+ 
+ .sub-section {
+     display: flex;
+     justify-content: space-around;
+     padding-top: 75px;
+     padding-bottom:200px;
+     padding-left: 100px;
+     padding-right: 100px;
+     color: palevioletred;
+ }
+ .hero-text{
+     margin-left: 40px;
+     padding-top: 0;
+     font-size: 30px;
+ }
+ .button {
+     width: 200px;
+     height: 60px;
+     background-color: palevioletred;
+     border-radius: 30px;
+     text-align: center;
+     font-size: 30px;
+     font-weight: 300;
+     padding-top: 5px;
+     margin-top: 20px;
+     color: rgb(218, 216, 216)
+     
+ }
+ 
+ .button:hover{
+     background-color: pink;
+     color: grey;
+ }
+ .button:active{
+     background-color: lightgrey;
+     color: grey;
+ }
+ form {
+     margin-top: 50px;;
+     margin-left: 200px;
+     margin-right: 200px;
+     margin-bottom: 150px;
+ }
+ body {
+     font-family: 'Poppins', sans-serif;
+     background-color: white
+ }
+ 
+ 
