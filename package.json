@@ -1,5 +1,6 @@
 {
-	"name": "react-hello",
+	"name": "pamelarosario-portfolio",
+	"homepage": "http://pamelarosarioportfolio.com/",
 	"version": "1.0.1",
 	"engines": {
 		"node": "10.x"
@@ -71,4 +72,5 @@
 		"react-polyfills": "0.0.1",
 		"react-reveal": "^1.2.2"
 	}
+
 }
