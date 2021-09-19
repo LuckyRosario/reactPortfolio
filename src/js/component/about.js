@@ -1,11 +1,12 @@
 import React from "react";
 import "../../styles/nav.scss";
 import Zoom from "react-reveal/Zoom";
+import Rotate from "react-reveal/Rotate";
 import Image from "./image.jpg";
 
 const About = () => {
 	return (
-		<section className="sub-section pb-5 pe-0 d-block d-md-flex">
+		<section className="sub-section pb-5 pe-0 d-block d-lg-flex">
 			<div className="container">
 				<div className="row">
 					<div className="col">
@@ -26,11 +27,13 @@ const About = () => {
 						</Zoom>
 					</div>
 					<div className="col ms-5 information">
-						<img
-							src={Image}
-							className=" headshot border border-secondary rounded-circle shadow-lg mt-3"
-							alt="Pamela Rosario"
-						/>
+						<Zoom>
+							<img
+								src={Image}
+								className=" headshot border border-secondary rounded-circle shadow-lg mt-3"
+								alt="Pamela Rosario"
+							/>
+						</Zoom>
 					</div>
 				</div>
 			</div>
