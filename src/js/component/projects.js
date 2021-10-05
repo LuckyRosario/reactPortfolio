@@ -15,9 +15,9 @@ const Projects = () => {
 				<h1 className="m-5 text-center" id="Projects">
 					Projects
 				</h1>
-				<div className="card-group gap-3">
-					<CardGroup>
-						<Zoom>
+				<Zoom>
+					<div className="card-group gap-3">
+						<CardGroup>
 							<Card>
 								<Card.Img variant="top" src={Blog} />
 								<Card.Body>
@@ -40,34 +40,30 @@ const Projects = () => {
 									</a>
 								</Card.Footer>
 							</Card>
-						</Zoom>
-						<Zoom>
-							<Zoom>
-								<Card>
-									<Card.Img variant="top" src={App} />
-									<Card.Body>
-										<Card.Title>Voting App</Card.Title>
-										<Card.Text>
-											I built this application using
-											React.js. It is designed for
-											coporate use. You can create users
-											as well as assign roles.
-											Administrators can create voting
-											events. Users vote and can view
-											results displayed in a real time
-											chart. Also displays account
-											information and budget.
-										</Card.Text>
-									</Card.Body>
-									<Card.Footer>
-										<a
-											className="github btn btn-light rounded-pill"
-											href="https://github.com/ingindIsrael/Votingapp_coopwork">
-											Github
-										</a>
-									</Card.Footer>
-								</Card>
-							</Zoom>
+
+							<Card>
+								<Card.Img variant="top" src={App} />
+								<Card.Body>
+									<Card.Title>Voting App</Card.Title>
+									<Card.Text>
+										I built this application using React.js.
+										It is designed for coporate use. You can
+										create users as well as assign roles.
+										Administrators can create voting events.
+										Users vote and can view results
+										displayed in a real time chart. Also
+										displays account information and budget.
+									</Card.Text>
+								</Card.Body>
+								<Card.Footer>
+									<a
+										className="github btn btn-light rounded-pill"
+										href="https://github.com/ingindIsrael/Votingapp_coopwork">
+										Github
+									</a>
+								</Card.Footer>
+							</Card>
+
 							<Card>
 								<Card.Img variant="top" src={List} />
 								<Card.Body>
@@ -88,9 +84,9 @@ const Projects = () => {
 									</a>
 								</Card.Footer>
 							</Card>
-						</Zoom>
-					</CardGroup>
-				</div>
+						</CardGroup>
+					</div>
+				</Zoom>
 			</Container>
 		</section>
 	);

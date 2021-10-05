@@ -20,8 +20,8 @@ const About = () => {
 								loved the internet and feel very priviledged to
 								have the creative skills to develop websites. I
 								know several languauges such as HTML5, CSS,
-								Javascript, and React. Take a peek at my
-								projects and leave your contact info below
+								Javascript, Bootstrap, and React. Take a peek at
+								my projects and leave your contact info below
 								please.
 							</p>
 						</Zoom>
