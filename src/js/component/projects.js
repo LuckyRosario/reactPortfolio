@@ -6,7 +6,7 @@ import "../../styles/nav.scss";
 import Zoom from "react-reveal/Zoom";
 import Blog from "./project1.png";
 import App from "./project2.png";
-import List from "./todolist.png";
+import Meme from "./meme_generator.png";
 
 const Projects = () => {
 	return (
@@ -16,8 +16,8 @@ const Projects = () => {
 					Projects
 				</h1>
 				<Zoom>
-					<div className="card-group gap-3">
-						<CardGroup>
+					<div>
+						<CardGroup className="m-5">
 							<Card>
 								<Card.Img variant="top" src={Blog} />
 								<Card.Body>
@@ -65,22 +65,23 @@ const Projects = () => {
 							</Card>
 
 							<Card>
-								<Card.Img variant="top" src={List} />
+								<Card.Img variant="top" src={Meme} />
 								<Card.Body>
-									<Card.Title>ToDo List</Card.Title>
+									<Card.Title>
+										Meme Generator Application
+									</Card.Title>
 									<Card.Text>
-										This todo list can access information
-										from an API. It also adds todos and
-										alerts the number left todo. You can
-										mark todos off and delete todos. Built
-										with React.js
+										I created this React application to
+										generator random images which allow for
+										text to be added. Check out the live
+										site and try it yourself!
 									</Card.Text>
 								</Card.Body>
 								<Card.Footer>
 									<a
 										className="github btn btn-light rounded-pill"
-										href="https://github.com/LuckyRosario/todo-list-api">
-										Github
+										href="https://spiveywifey.com/">
+										Live Application
 									</a>
 								</Card.Footer>
 							</Card>
